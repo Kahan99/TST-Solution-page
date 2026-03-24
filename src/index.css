@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600&display=swap");
+@import "tailwindcss";
+
+/* Optional: Add custom base styles here */
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased;
+    font-family: "Inter", sans-serif;
+  }
+}
+
+/* Hide scrollbar while keeping scroll functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
