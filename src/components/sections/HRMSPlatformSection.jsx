@@ -31,9 +31,8 @@ export default function HRMSPlatformSection() {
             />
 
             <div className="flex flex-col gap-4 lg:gap-[20px] items-center lg:items-start text-center lg:text-left">
-              <h3 className="w-full lg:w-[700px] lg:h-[43px] flex items-center justify-center lg:justify-start font-['Bricolage_Grotesque'] font-bold text-2xl lg:text-[36px] leading-[120%] text-[#212125]">
-                How This <span className="text-[#35B729]">&nbsp;Problem</span>{" "}
-                Started
+              <h3 className="w-full lg:w-[700px] text-center lg:text-left font-['Bricolage_Grotesque'] font-bold text-2xl lg:text-[36px] leading-[120%] text-[#212125]">
+                How This <span className="text-[#35B729]">Problem Started</span>
               </h3>
 
               <div className="flex flex-col gap-[14px] w-full lg:w-[700px] lg:h-[299px]">
@@ -78,8 +77,8 @@ export default function HRMSPlatformSection() {
             />
 
             <div className="flex flex-col gap-4 lg:gap-[20px] items-center lg:items-start text-center lg:text-left">
-              <h2 className="w-full lg:w-[600px] lg:h-[43px] flex items-center justify-center lg:justify-start font-['Bricolage_Grotesque'] font-bold text-2xl lg:text-[36px] leading-[120%] text-[#212125]">
-                Our <span className="text-[#35B729]">&nbsp;HRMS Platform</span>
+              <h2 className="w-full lg:w-[600px] text-center lg:text-left font-['Bricolage_Grotesque'] font-bold text-2xl lg:text-[36px] leading-[120%] text-[#212125]">
+                Our <span className="text-[#35B729]">HRMS Platform</span>
               </h2>
 
               <p className="font-inter text-base lg:text-[24px] leading-[130%] text-[#75757A]">
